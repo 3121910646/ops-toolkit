@@ -1,0 +1,28 @@
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.sublime-*
+
+# 日志（避免误提交生产日志）
+*.log
+!README.md
+
+# ShellCheck 本地配置
+.shellcheckrc
+
+# 个人敏感信息
+.env
+.ssh/
+*_private*
+*_secret*
